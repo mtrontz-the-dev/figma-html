@@ -1,6 +1,6 @@
 on:
   schedule:
-    - cron:  '0 5 * * 7'
+    - cron: '0 5 * * mon'
     # scheduled at 05:00 every Sunday
 
   workflow_dispatch:  # click the button on Github repo!
